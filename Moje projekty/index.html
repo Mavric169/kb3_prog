@@ -5,9 +5,10 @@
         <title>Trees</title>
         <style>
             body {
-                background-color:rgb(252, 252, 252);
+                background-color:#f8f9fa;
                 max-width: 800px;
                 margin: auto;
+                padding: 0;
             }
             h1 {
                 color: rgb(0, 0, 0);
@@ -25,14 +26,36 @@
                 display: inline-block;
                 margin-right: 20px;
             }
-            .header-nav {
+            nav {
+                background-color: #f8f9fa;
+                padding: 10px 20px;
+                border-bottom: 1px solid #ccc;
                 display: flex;
-                gap: 15px;
-                margin-bottom: 10px;  
+                justify-content: space-between;
+                align-items: center;
             }
-            .hatnote {
-                font-style: italic;
-                margin-bottom: 15px;
+            .left-links {
+                display: flex;
+            }
+            .right-links {
+                display: flex;
+            }
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+            nav li {
+                margin: 0 10px;
+            }
+            nav li a {
+                text-decoration: none;
+                color: #000000;
+                font-weight: bold;
+            }
+            nav li a:hover {
+                color: #007bff;
             }
         </style>
     </head>
@@ -41,17 +64,24 @@
             <h1>Trees</h1>
         </a>
         <hr width="800px" color="black">
-        <div class="header-nav">
-            <div>
-                <h4>Article</h4>
-                <h4>Talk</h4>
-                <h4>Read</h4>
-                <h4>View source</h4>
-                <h4>View history</h4>
-             </div>
-            <div class="hatnote">
-                <p style="text-indent:1cm;">For other uses, see Tree (disambiguation).</p>
-            </div>
+        <!-- Navigation Header -->
+    <nav>
+        <div class="left-links">
+            <ul>
+                <li><a href="#">Article</a></li>
+                <li><a href="#">Talk</a></li>
+            </ul>
+        </div>
+        <div class="right-links">
+            <ul>
+                <li><a href="#">Read</a></li>
+                <li><a href="#">View source</a></li>
+                <li><a href="#">View history</a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="hatnote">
+            <p style="text-indent:1cm;">For other uses, see Tree (disambiguation).</p>
         </div>
         <div style="float:right" width="400px" margin=auto>
             <img src="img/tree2.jpg" alt="Velký zelený strom" width="400px" height="300px">
