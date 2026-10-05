@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: rgb(96, 0, 128);
+    background-color: yellow;
+    padding: 10px;
+}
+#nav {
+    font-size: 20px;
+}
+.nav-link {
+    color: rgb(96, 0, 128);
+    text-decoration: none;
+    padding-right: 15px;
+    font-weight: bold;
+}
+hr {
+    margin-top: 10px;
+    border: 2px solid black;
+}
