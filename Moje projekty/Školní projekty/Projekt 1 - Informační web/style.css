@@ -1,0 +1,33 @@
+body {
+    background-color: #F2DD6E;
+}
+#nadpis {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: #090446;
+}
+#nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #090446;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.nav-a {
+    color: #090446;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-a:hover {
+    color: #F2DD6E;
+    background-color: #090446;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+}
