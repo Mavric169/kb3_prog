@@ -22,9 +22,8 @@ body {
 .nav-a {
     color: #090446;
     text-decoration: none;
+    padding: 15px;
     transition: 0.3s;
-    padding-right: 10px;
-    padding-left: 10px;
 }
 .nav-a:hover {
     color: #F2DD6E;
@@ -42,6 +41,7 @@ body {
 .logo {
     width: auto;
     height: 3.5rem;
+    transition: 0.3s;
 }
 .logo:hover {
     transform: scale(1.1);
