@@ -184,7 +184,7 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
     padding: 20px;
-
+    background-color: oklab(94.61% -0.081 0.08);
 }
 .footer-left p, .footer-right p {
     text-align: left;
