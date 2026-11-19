@@ -8,6 +8,7 @@
 <body>
     <h1>Sčítání dvou čísel</h1>
     <p id="vysledek"></p>
+    <p id="znamenko"></p>
 
     <script>
         // <script> se nejčastěji dává na konec <body>
@@ -20,6 +21,17 @@
         // textContent vypíše text do existujícího HTML prvku.
         document.getElementById("vysledek").innerHTML =
             "Součet: " + soucet;
+
+        if (soucet > 0) {
+            document.getElementById("znamenko").innerHTML =
+            "Součet je kladný.";
+        } else if (soucet == 0) {
+            document.getElementById("znamenko").innerHTML =
+            "Součet je nulový.";
+        } else {
+            document.getElementById("znamenko").innerHTML =
+            "Součet je záporný.";
+        }
     </script>
 </body>
 </html>
